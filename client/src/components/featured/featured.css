@@ -1,0 +1,26 @@
+.featured{
+    width:100%;
+    max-width:1024px;
+    justify-content: center;
+    display: flex;
+    gap:20px;
+    z-index:1;
+}
+    
+.featuredImg{
+    width:100%;
+    object-fit: cover; /* to fit the images other wise it is gone to outside of window */
+}
+.featuredItem{
+    position:relative;
+    color:white;
+    border-radius: 10px;
+    overflow:hidden;
+    height:250px;
+}
+
+.featuredTitle{
+    position:absolute;
+    bottom:20px;
+    left:20px;
+}
